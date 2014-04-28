@@ -1,3 +1,4 @@
 Jumpup::Heroku.configure do |config|
-  config.app = 'hemobile-api'
+  config.staging_app = 'hemobile-api-staging'
+  config.production_app = 'hemobile-api'
 end if Rails.env.development?
